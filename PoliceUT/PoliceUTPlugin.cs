@@ -98,9 +98,7 @@ namespace nexusUT
         {
             Rocket.Core.R.Commands.Register(new FriskCommand(this));
             Rocket.Core.R.Commands.Register(new JailCommand(this));
-            Rocket.Core.R.Commands.Register(new SetJailCommand(this));
             Rocket.Core.R.Commands.Register(new UnjailCommand(this));
-            Rocket.Core.R.Commands.Register(new RemoveJailCommand(this));
             Rocket.Core.R.Commands.Register(new PayBailCommand(this));
             Rocket.Core.R.Commands.Register(new FineCommand(this));
             Rocket.Core.R.Commands.Register(new ArrestLogCommand(this));
